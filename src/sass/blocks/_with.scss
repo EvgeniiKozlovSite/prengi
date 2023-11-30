@@ -1,0 +1,77 @@
+.with{
+    padding-bottom: 80px;
+    &__items{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item{
+        background: url('../icons/question.png') 117% 130% no-repeat;
+        height: 250px;
+        width: 350px;
+        border: 1px solid #ececec;
+        padding: 30px 50px 40px 50px;
+        &-bg{
+            background: url('../icons/galka.png') 117% 130% no-repeat;
+        }
+        &-img{
+            margin: 0 auto;
+            height: 100px;
+            width: 100px;
+
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+    &__desr{
+        text-align: center;
+        font-weight: 300;
+        font-size: 18px;
+        color: $text-color;
+        margin-top: 20px;
+        &-fw{
+            font-weight: 700;
+        }
+    }
+    &__line{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+        &-mt10{
+            margin-top: 15px;
+        }
+        &-l{
+            width: 84px;
+            height: 2px;
+            background-color: #ececec;
+            transform: rotate(30deg);
+            &::after{
+            content:'';
+            width: 91px;
+            height: 2px;
+            display: block;
+            background-color: #ececec;
+            }
+
+        }
+        &-r{
+            width: 84px;
+            height: 2px;
+            background-color: #ececec;
+            transform: rotate(150deg);  
+            &::after{
+                content:'';
+                width: 91px;
+                height: 2px;
+                display: block;
+                background-color: #ececec;
+                }
+
+        }
+    }
+}

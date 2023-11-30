@@ -1,0 +1,34 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/itc-slider';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0;
+}
+@import 'base/variables';
+@import 'blocks/header_and_promo';
+@import 'blocks/title';
+@import 'blocks/btn';
+@import 'blocks/with';
+@import 'blocks/slider';
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import 'base/media';
